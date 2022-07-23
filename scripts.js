@@ -107,3 +107,9 @@ function myFunction5() {
       }
     }
   }
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const dropdownlinks = document.getElementsByClassName('dropdown-links')[0]
+
+toggleButton.addEventListener('click', () => {
+  dropdownlinks.classList.toggle('active')
+})
