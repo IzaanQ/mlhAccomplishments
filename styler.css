@@ -53,7 +53,7 @@ button {
   font-family: "Open Sans", "Helvetica Neue", "Arial", "sans-serif";
   font-size: 14px;
   cursor: pointer;
-  margin-left: 10px;
+  margin-left: 17px;
 }
 
 button.dropbtn {
@@ -266,55 +266,4 @@ button.dropbtn5 {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show5 {
   display: block;
-}
-.toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-
-.toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: gray;
-    border-radius: 10px;
-}
-
-@media (max-width: 800px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .toggle-button {
-        display: flex;
-    }
-
-    .dropdown-links {
-        display: none;
-        width: 100%;
-    }
-
-    .dropdown-links ul {
-        width: 100%;
-        flex-direction: column;
-        align-content: left;
-    }
-
-    .dropdown-links ul li {
-        text-align: center;
-    }
-
-    .dropdown-links ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .dropdown-links.active {
-        display: flex;
-    }
 }
